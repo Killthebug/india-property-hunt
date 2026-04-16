@@ -194,8 +194,6 @@ Edit `config.md` — the only file you need to change:
 
 ---
 
----
-
 ## 🤖 About Claude Cowork & Fluso
 
 **Claude Cowork** is Anthropic's agentic workspace for running AI skills, workflows, and automations end-to-end.
