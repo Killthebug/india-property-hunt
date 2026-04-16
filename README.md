@@ -138,10 +138,29 @@ Every run sends a plain-text email with:
 
 ## ⚙️ Requirements
 
-- Claude Code (CLI or desktop)
-- Claude in Chrome MCP (for browser automation)
-- Gmail MCP connector
+### For Fluso (recommended)
+- [Claude Cowork](https://claude.ai) — the agentic workspace where this skill runs
+- **Exa Search** connector — for finding listings across rental platforms
+- **Gmail** connector — for sending email summaries (plain text)
+- **Python 3 + openpyxl** — for spreadsheet operations (pre-installed in Fluso)
+
+### For Claude Code (legacy)
+> The original London version required Claude Code + Claude in Chrome MCP for browser automation. This India version is designed for **Fluso** and uses web search connectors instead — no browser automation, no MCP extensions, no Chrome dependency.
+- Claude Code CLI
+- Gmail connector
 - Python 3 + openpyxl
+
+---
+
+## 🔌 Fluso Connectors Used
+
+| Connector | Purpose | Required? |
+|---|---|---|
+| **Exa Search** | Search NoBroker, Housing.com, 99acres, MagicBricks | ✅ Yes |
+| **Gmail** | Send plain-text email summaries | ✅ Yes |
+| Google Calendar | Schedule recurring runs | Optional |
+| GitHub | Push tracker to repo | Optional |
+| Google Drive | Store tracker in the cloud | Optional |
 
 ---
 
