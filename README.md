@@ -1,4 +1,4 @@
-# India Property Hunt — Automated with Claude Cowork
+# India Property Hunt
 
 An AI-powered workflow that searches Indian rental platforms daily, tracks listings in a spreadsheet, generates personalised outreach messages, and emails you a formatted summary — fully automatically.
 
