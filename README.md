@@ -68,7 +68,7 @@ No browser automation, no MCP extensions, no CLI installs needed. Fluso handles 
 ```
 india-property-hunt/
 ├── README.md              ← you are here
-├── skill.md               ← Claude Code skill prompt
+├── skill.md               ← Fluso skill prompt (drop-in)
 ├── config.example.md      ← personal config template
 ├── process_listings.py    ← test processor with sample listings
 ├── tracker/
