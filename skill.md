@@ -158,4 +158,3 @@ Filename format: outreach_{platform}_{area}_{listing_id}.txt
 | `[BROKERAGE_ACCEPTABLE]` | No (prefer NoBroker/direct) | config.md |
 | `[YOUR_EMAIL]` | you@gmail.com | config.md |
 | `[YOUR_HUNT_DIR]` | ~/india-property-hunt | config.md |
-| `[GMAIL_ACCOUNT_INDEX]` | 0 (first account) | config.md |
