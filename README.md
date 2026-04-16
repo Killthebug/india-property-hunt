@@ -194,4 +194,16 @@ Edit `config.md` — the only file you need to change:
 
 ---
 
+---
+
+## 🤖 About Claude Cowork & Fluso
+
+**Claude Cowork** is Anthropic's agentic workspace for running AI skills, workflows, and automations end-to-end.
+**Fluso** is the personal Agentic Workspace Manager that orchestrates Claude Cowork skills with connected apps.
+
+This skill was built to work natively with Fluso — it uses Fluso's connector system (Exa Search, Gmail) instead of browser automation, making it faster, more reliable, and zero-config.
+
+---
+
+*Built for [Claude Cowork](https://claude.ai) · Powered by [Fluso](https://fluso.ai)*
 *Adapted from [London Property Hunt](https://github.com/mikepapadim/london-property-hunt-public) · April 2026*
