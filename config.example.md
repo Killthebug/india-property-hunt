@@ -81,8 +81,10 @@ MAX_COMMUTE_MINUTES=45
 
 ```
 YOUR_EMAIL=jpsinghgoud@gmail.com
-GMAIL_ACCOUNT_INDEX=0
 ```
+
+Fluso will use the Gmail connector to send summaries to this address.
+No account index needed — Fluso handles multi-account routing automatically.
 
 ## File paths
 
