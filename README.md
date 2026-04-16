@@ -30,10 +30,22 @@ cp config.example.md config.md
 # Edit config.md with your details
 ```
 
-Then run with Claude Code:
+Then run in Claude Cowork / Fluso:
 ```
-claude "Run the India property hunt — search all platforms, update tracker, send email"
+Run the India property hunt skill — search all platforms, update tracker, send email
 ```
+
+No browser automation, no MCP extensions, no CLI installs needed. Fluso handles everything using its built-in connectors.
+
+---
+
+## How it works with Fluso
+
+1. **Search** — Fluso uses the Exa Search connector to find listings across NoBroker, Housing.com, 99acres, and MagicBricks in one pass
+2. **Prioritise** — India-specific logic (power backup, water supply, deposit months, brokerage, bachelor-friendly) ranks every listing HIGH / MEDIUM / LOW
+3. **Track** — Python + openpyxl updates a colour-coded spreadsheet (deduplicates by URL)
+4. **Outreach** — Personalised `.txt` messages generated for every HIGH priority listing
+5. **Email** — Gmail connector sends a plain-text summary straight to your inbox
 
 ---
 
