@@ -1,12 +1,13 @@
-# India Property Hunt — Claude Code Skill
+# India Property Hunt — Fluso Skill
 
-> **How to use:** Copy this file's contents into Claude Code as a skill, or run it directly.
+> **How to use:** This is a drop-in skill for [Claude Cowork](https://claude.ai) / [Fluso](https://fluso.ai).
+> Install it in your workspace `skills/` directory and Fluso auto-detects it.
 > Before running, fill in your personal details in `config.md` (copy from `config.example.md`).
 > All `[PLACEHOLDER]` values below are read from your config file.
 
 ---
 
-## Skill prompt (paste into Claude Code)
+## Skill prompt (Fluso reads this automatically)
 
 ```
 You are running [YOUR_NAME]'s India property hunt. Do this automatically — no user present. Complete all steps fully.
