@@ -96,11 +96,12 @@ Priority for villas:
 
 Row fill colours: HIGH = E2EFDA, MEDIUM = FFFFC7, LOW = FCE4D6
 
-## EMAIL — PLAIN TEXT (Gmail connector only supports plain text)
+## EMAIL — PLAIN TEXT (Fluso Gmail connector supports plain text)
 
 [YOUR_NAME] may only have their phone. Email must be fully actionable without opening any other file.
 
-Use gmail send email, To: [YOUR_EMAIL]
+Use Fluso's Gmail connector (GMAIL__SEND_EMAIL) to send the email, To: [YOUR_EMAIL]
+Note: The Gmail connector only supports plain text body. Do NOT send HTML — it renders as raw markup.
 Subject: 🏠 India Property Hunt — {DATE} — {N} new listings
 
 Plain text body sections:
